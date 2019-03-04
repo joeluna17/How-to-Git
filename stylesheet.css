@@ -1,0 +1,71 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    width: 875px;
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+
+header{
+    text-align: center;
+    
+}
+
+header img:first-child{
+    width: 175px;
+    height:175px;
+}
+
+
+.main-body-section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    margin: 0 auto;
+   
+}
+
+.process-content{
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: rgba(1, 1, 1, 0.8);
+    color:white;
+    font-size: 20px;
+    display: flex;
+   
+}
+.process-content-img img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.process-content-img{
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.process-content p{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+.code-font{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color: green;
+    display: flex;
+    
+}
